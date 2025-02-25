@@ -26,7 +26,7 @@ export async function fetchIncomeData(selectedCountries: string[]): Promise<Inco
         if (entry.value) {
           data.push({
             country,
-            year: entry.date,
+            year: Number(entry.date),
             averageIncome: entry.value * 150, // 日本円換算（1ドル=150円）
           });
         }
