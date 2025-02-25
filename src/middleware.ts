@@ -37,7 +37,7 @@ export function middleware(request: Request) {
   // 認証成功 → 次の処理へ
   return NextResponse.next();
 }
-
+ 
 // ベーシック認証を適用するルートを指定（すべてのページに適用）
 export const config = {
   matcher: "/:path*",
