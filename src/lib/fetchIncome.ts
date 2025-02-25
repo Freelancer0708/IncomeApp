@@ -19,10 +19,10 @@ export async function fetchIncomeData(selectedCountries: string[]): Promise<Inco
     }
 
     const json = await response.json();
-    const countryData = json[1];
+    const countryData = json[1] as { date: string; value: number | null }[];
 
     if (countryData) {
-      countryData.forEach((entry: any) => {
+      countryData.forEach((entry) => {
         if (entry.value) {
           data.push({
             country,
