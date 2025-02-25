@@ -30,6 +30,52 @@ body {
   margin: 0;
 }
 
+main {
+  width: 96%;
+  margin: 0 auto;
+  padding: 4% 0;
+}
+h1 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+tspan {
+  font-size: 12px;
+}
+section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  width: 100%;
+}
+label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #ededed;
+  padding: 14px 12px;
+  cursor: pointer;
+  line-height: 1;
+  width: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+label input {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 4px;
+  outline: none;
+}
+@media screen and (max-width:780px) {
+  h1 {
+    text-align: center;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;
