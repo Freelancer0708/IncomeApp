@@ -1,12 +1,12 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #0a0a0a;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #0a0a0a;
   }
 }
 
@@ -38,6 +38,7 @@ main {
 h1 {
   text-align: left;
   margin-bottom: 10px;
+  color: #ededed;
 }
 tspan {
   font-size: 12px;
@@ -62,6 +63,7 @@ label {
   margin-right: 10px;
   margin-bottom: 10px;
   outline: none;
+  color: #ededed;
 }
 label input {
   display: flex;
