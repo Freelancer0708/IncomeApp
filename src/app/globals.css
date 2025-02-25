@@ -82,6 +82,9 @@ label input {
     font-size: 14px;
     padding: 10px 12px;
   }
+  tspan {
+    font-size: 11px;
+  }
 }
 
 a {
